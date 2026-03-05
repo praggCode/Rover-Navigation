@@ -49,7 +49,7 @@ npm test
 
 ```
 ├── rover.js          # Core logic
-├── rover.test.js     # Jest test suite (28 tests)
+├── rover.test.js     # Jest test suite (31 tests)
 ├── input.txt         # Sample input
 └── README.md
 ```
@@ -62,3 +62,10 @@ npm test
 - Boundary protection
 - Invalid commands, facing directions, and malformed input
 - Full integration with sample input
+
+## Test Coverage
+
+```
+File      | % Stmts | % Branch | % Funcs | % Lines
+rover.js  |  93.44  |  93.47   |   100   |  92.72
+```
